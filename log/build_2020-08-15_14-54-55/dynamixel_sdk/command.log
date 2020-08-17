@@ -1,0 +1,1 @@
+Invoking command in '/home/hadi/robotis_ws/build/dynamixel_sdk': /usr/bin/cmake /home/hadi/robotis_ws/src/DynamixelSDK/dynamixel_sdk -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hadi/robotis_ws/install/dynamixel_sdk

@@ -1,0 +1,8 @@
+[0.022s] Invoking command in '/home/hadi/robotis_ws/build/open_manipulator_x_description': /usr/bin/cmake /home/hadi/robotis_ws/src/open_manipulator/open_manipulator_x_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hadi/robotis_ws/install/open_manipulator_x_description
+[0.041s] -- Found ament_cmake: 0.7.5 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.066s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[0.066s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.260s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.337s] -- Configuring done
+[0.338s] -- Generating done
+[0.339s] -- Build files have been written to: /home/hadi/robotis_ws/build/open_manipulator_x_description

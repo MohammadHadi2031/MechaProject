@@ -1,0 +1,187 @@
+[0.000000] (-) TimerEvent: {}
+[0.001277] (cmake_modules) JobQueued: {'identifier': 'cmake_modules', 'dependencies': OrderedDict()}
+[0.001636] (dynamixel_sdk) JobQueued: {'identifier': 'dynamixel_sdk', 'dependencies': OrderedDict()}
+[0.001785] (open_manipulator_msgs) JobQueued: {'identifier': 'open_manipulator_msgs', 'dependencies': OrderedDict()}
+[0.001845] (open_manipulator_x_description) JobQueued: {'identifier': 'open_manipulator_x_description', 'dependencies': OrderedDict()}
+[0.001899] (dynamixel_workbench_toolbox) JobQueued: {'identifier': 'dynamixel_workbench_toolbox', 'dependencies': OrderedDict([('dynamixel_sdk', '/home/hadi/robotis_ws/install/dynamixel_sdk')])}
+[0.001956] (open_manipulator_x_teleop) JobQueued: {'identifier': 'open_manipulator_x_teleop', 'dependencies': OrderedDict([('open_manipulator_msgs', '/home/hadi/robotis_ws/install/open_manipulator_msgs')])}
+[0.002002] (robotis_manipulator) JobQueued: {'identifier': 'robotis_manipulator', 'dependencies': OrderedDict([('cmake_modules', '/home/hadi/robotis_ws/install/cmake_modules')])}
+[0.002104] (dynamixel_workbench) JobQueued: {'identifier': 'dynamixel_workbench', 'dependencies': OrderedDict([('dynamixel_sdk', '/home/hadi/robotis_ws/install/dynamixel_sdk'), ('dynamixel_workbench_toolbox', '/home/hadi/robotis_ws/install/dynamixel_workbench_toolbox')])}
+[0.002151] (open_manipulator_x_libs) JobQueued: {'identifier': 'open_manipulator_x_libs', 'dependencies': OrderedDict([('cmake_modules', '/home/hadi/robotis_ws/install/cmake_modules'), ('dynamixel_sdk', '/home/hadi/robotis_ws/install/dynamixel_sdk'), ('dynamixel_workbench_toolbox', '/home/hadi/robotis_ws/install/dynamixel_workbench_toolbox'), ('robotis_manipulator', '/home/hadi/robotis_ws/install/robotis_manipulator')])}
+[0.002188] (open_manipulator_x_controller) JobQueued: {'identifier': 'open_manipulator_x_controller', 'dependencies': OrderedDict([('cmake_modules', '/home/hadi/robotis_ws/install/cmake_modules'), ('dynamixel_sdk', '/home/hadi/robotis_ws/install/dynamixel_sdk'), ('open_manipulator_msgs', '/home/hadi/robotis_ws/install/open_manipulator_msgs'), ('dynamixel_workbench_toolbox', '/home/hadi/robotis_ws/install/dynamixel_workbench_toolbox'), ('robotis_manipulator', '/home/hadi/robotis_ws/install/robotis_manipulator'), ('open_manipulator_x_libs', '/home/hadi/robotis_ws/install/open_manipulator_x_libs')])}
+[0.002239] (open_manipulator_x) JobQueued: {'identifier': 'open_manipulator_x', 'dependencies': OrderedDict([('cmake_modules', '/home/hadi/robotis_ws/install/cmake_modules'), ('dynamixel_sdk', '/home/hadi/robotis_ws/install/dynamixel_sdk'), ('open_manipulator_msgs', '/home/hadi/robotis_ws/install/open_manipulator_msgs'), ('open_manipulator_x_description', '/home/hadi/robotis_ws/install/open_manipulator_x_description'), ('dynamixel_workbench_toolbox', '/home/hadi/robotis_ws/install/dynamixel_workbench_toolbox'), ('open_manipulator_x_teleop', '/home/hadi/robotis_ws/install/open_manipulator_x_teleop'), ('robotis_manipulator', '/home/hadi/robotis_ws/install/robotis_manipulator'), ('open_manipulator_x_libs', '/home/hadi/robotis_ws/install/open_manipulator_x_libs'), ('open_manipulator_x_controller', '/home/hadi/robotis_ws/install/open_manipulator_x_controller')])}
+[0.002294] (dynamixel_sdk) JobStarted: {'identifier': 'dynamixel_sdk'}
+[0.020353] (cmake_modules) JobStarted: {'identifier': 'cmake_modules'}
+[0.035415] (open_manipulator_msgs) JobStarted: {'identifier': 'open_manipulator_msgs'}
+[0.040090] (open_manipulator_x_description) JobStarted: {'identifier': 'open_manipulator_x_description'}
+[0.053864] (dynamixel_sdk) JobProgress: {'identifier': 'dynamixel_sdk', 'progress': 'cmake'}
+[0.054801] (dynamixel_sdk) Command: {'cmd': ['/usr/bin/cmake', '/home/hadi/robotis_ws/src/DynamixelSDK/dynamixel_sdk', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/hadi/robotis_ws/install/dynamixel_sdk'], 'cwd': '/home/hadi/robotis_ws/build/dynamixel_sdk', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('LC_TIME', 'az_IR'), ('USER', 'root'), ('HOME', '/home/hadi'), ('LC_MONETARY', 'az_IR'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('LOGNAME', 'root'), ('TERM', 'xterm-256color'), ('USERNAME', 'root'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LC_ADDRESS', 'az_IR'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'az_IR'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SUDO_COMMAND', '/usr/bin/colcon build --symlink-install'), ('LC_NAME', 'az_IR'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'hadi'), ('LC_MEASUREMENT', 'az_IR'), ('LC_IDENTIFICATION', 'az_IR'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/hadi/robotis_ws/build/dynamixel_sdk'), ('LC_NUMERIC', 'az_IR'), ('LC_PAPER', 'az_IR'), ('COLCON', '1')]), 'shell': False}
+[0.063402] (cmake_modules) JobProgress: {'identifier': 'cmake_modules', 'progress': 'cmake'}
+[0.063954] (cmake_modules) Command: {'cmd': ['/usr/bin/cmake', '/home/hadi/robotis_ws/src/open_manipulator_dependencies/cmake_modules', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/hadi/robotis_ws/install/cmake_modules'], 'cwd': '/home/hadi/robotis_ws/build/cmake_modules', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('LC_TIME', 'az_IR'), ('USER', 'root'), ('HOME', '/home/hadi'), ('LC_MONETARY', 'az_IR'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('LOGNAME', 'root'), ('TERM', 'xterm-256color'), ('USERNAME', 'root'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LC_ADDRESS', 'az_IR'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'az_IR'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SUDO_COMMAND', '/usr/bin/colcon build --symlink-install'), ('LC_NAME', 'az_IR'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'hadi'), ('LC_MEASUREMENT', 'az_IR'), ('LC_IDENTIFICATION', 'az_IR'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/hadi/robotis_ws/build/cmake_modules'), ('LC_NUMERIC', 'az_IR'), ('LC_PAPER', 'az_IR'), ('COLCON', '1')]), 'shell': False}
+[0.069144] (open_manipulator_msgs) JobProgress: {'identifier': 'open_manipulator_msgs', 'progress': 'cmake'}
+[0.069363] (open_manipulator_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/hadi/robotis_ws/src/open_manipulator_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/hadi/robotis_ws/install/open_manipulator_msgs'], 'cwd': '/home/hadi/robotis_ws/build/open_manipulator_msgs', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('LC_TIME', 'az_IR'), ('USER', 'root'), ('HOME', '/home/hadi'), ('LC_MONETARY', 'az_IR'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('LOGNAME', 'root'), ('TERM', 'xterm-256color'), ('USERNAME', 'root'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LC_ADDRESS', 'az_IR'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'az_IR'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SUDO_COMMAND', '/usr/bin/colcon build --symlink-install'), ('LC_NAME', 'az_IR'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'hadi'), ('LC_MEASUREMENT', 'az_IR'), ('LC_IDENTIFICATION', 'az_IR'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/hadi/robotis_ws/build/open_manipulator_msgs'), ('LC_NUMERIC', 'az_IR'), ('LC_PAPER', 'az_IR'), ('COLCON', '1')]), 'shell': False}
+[0.076431] (open_manipulator_x_description) JobProgress: {'identifier': 'open_manipulator_x_description', 'progress': 'cmake'}
+[0.077120] (open_manipulator_x_description) Command: {'cmd': ['/usr/bin/cmake', '/home/hadi/robotis_ws/src/open_manipulator/open_manipulator_x_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/hadi/robotis_ws/install/open_manipulator_x_description'], 'cwd': '/home/hadi/robotis_ws/build/open_manipulator_x_description', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('LC_TIME', 'az_IR'), ('USER', 'root'), ('HOME', '/home/hadi'), ('LC_MONETARY', 'az_IR'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('LOGNAME', 'root'), ('TERM', 'xterm-256color'), ('USERNAME', 'root'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LC_ADDRESS', 'az_IR'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'az_IR'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SUDO_COMMAND', '/usr/bin/colcon build --symlink-install'), ('LC_NAME', 'az_IR'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'hadi'), ('LC_MEASUREMENT', 'az_IR'), ('LC_IDENTIFICATION', 'az_IR'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/hadi/robotis_ws/build/open_manipulator_x_description'), ('LC_NUMERIC', 'az_IR'), ('LC_PAPER', 'az_IR'), ('COLCON', '1')]), 'shell': False}
+[0.099163] (-) TimerEvent: {}
+[0.179195] (cmake_modules) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[0.182478] (dynamixel_sdk) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[0.183939] (open_manipulator_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[0.187502] (open_manipulator_x_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[0.199296] (-) TimerEvent: {}
+[0.256329] (cmake_modules) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[0.263762] (cmake_modules) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.272779] (dynamixel_sdk) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[0.276278] (open_manipulator_x_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[0.277829] (dynamixel_sdk) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.279129] (open_manipulator_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[0.280982] (open_manipulator_x_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.285392] (open_manipulator_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.299400] (-) TimerEvent: {}
+[0.399231] (dynamixel_sdk) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.399459] (-) TimerEvent: {}
+[0.399956] (dynamixel_sdk) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400669] (cmake_modules) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.401854] (cmake_modules) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.441266] (open_manipulator_x_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.442547] (open_manipulator_x_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.442866] (open_manipulator_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.443544] (open_manipulator_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.499603] (-) TimerEvent: {}
+[0.549504] (cmake_modules) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.559471] (dynamixel_sdk) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.559853] (cmake_modules) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.568559] (dynamixel_sdk) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.582492] (open_manipulator_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.591506] (open_manipulator_x_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.595138] (open_manipulator_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.599715] (-) TimerEvent: {}
+[0.605855] (open_manipulator_x_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.699835] (-) TimerEvent: {}
+[0.800208] (-) TimerEvent: {}
+[0.900659] (-) TimerEvent: {}
+[0.924707] (cmake_modules) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.928618] (cmake_modules) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.934023] (dynamixel_sdk) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.938496] (dynamixel_sdk) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.951018] (open_manipulator_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.956733] (open_manipulator_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.993538] (open_manipulator_x_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.996614] (open_manipulator_x_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.000773] (-) TimerEvent: {}
+[1.074103] (cmake_modules) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.074599] (dynamixel_sdk) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.075264] (cmake_modules) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.075987] (dynamixel_sdk) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.100895] (-) TimerEvent: {}
+[1.112489] (open_manipulator_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.113512] (open_manipulator_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.131506] (open_manipulator_x_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.132435] (open_manipulator_x_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.201010] (-) TimerEvent: {}
+[1.232931] (cmake_modules) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.244335] (cmake_modules) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.265085] (dynamixel_sdk) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.276293] (dynamixel_sdk) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.279362] (open_manipulator_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.285207] (open_manipulator_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.301145] (-) TimerEvent: {}
+[1.313887] (open_manipulator_x_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.322406] (open_manipulator_x_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.401283] (-) TimerEvent: {}
+[1.501614] (-) TimerEvent: {}
+[1.601933] (-) TimerEvent: {}
+[1.702274] (-) TimerEvent: {}
+[1.774579] (cmake_modules) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.787691] (cmake_modules) StderrLine: {'line': b'CMake Error at CMakeLists.txt:9 (find_package):\n'}
+[1.788337] (cmake_modules) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[1.788662] (cmake_modules) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[1.788916] (cmake_modules) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[1.789167] (cmake_modules) StderrLine: {'line': b'\n'}
+[1.789337] (cmake_modules) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[1.789731] (cmake_modules) StderrLine: {'line': b'  any of the following names:\n'}
+[1.789961] (cmake_modules) StderrLine: {'line': b'\n'}
+[1.790074] (cmake_modules) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[1.790175] (cmake_modules) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[1.790270] (cmake_modules) StderrLine: {'line': b'\n'}
+[1.790362] (cmake_modules) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[1.790534] (cmake_modules) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[1.790630] (cmake_modules) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[1.790761] (cmake_modules) StderrLine: {'line': b'  has been installed.\n'}
+[1.790903] (cmake_modules) StderrLine: {'line': b'\n'}
+[1.790994] (cmake_modules) StderrLine: {'line': b'\n'}
+[1.791113] (cmake_modules) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.791306] (cmake_modules) StdoutLine: {'line': b'See also "/home/hadi/robotis_ws/build/cmake_modules/CMakeFiles/CMakeOutput.log".\n'}
+[1.797381] (cmake_modules) CommandEnded: {'returncode': 1}
+[1.799180] (cmake_modules) JobEnded: {'identifier': 'cmake_modules', 'rc': 1}
+[1.802382] (-) TimerEvent: {}
+[1.811042] (dynamixel_sdk) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.817524] (open_manipulator_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.819852] (dynamixel_sdk) StderrLine: {'line': b'CMake Error at CMakeLists.txt:18 (find_package):\n'}
+[1.820413] (dynamixel_sdk) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[1.820892] (dynamixel_sdk) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[1.821136] (dynamixel_sdk) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[1.821372] (dynamixel_sdk) StderrLine: {'line': b'\n'}
+[1.821547] (dynamixel_sdk) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[1.821710] (dynamixel_sdk) StderrLine: {'line': b'  any of the following names:\n'}
+[1.821871] (dynamixel_sdk) StderrLine: {'line': b'\n'}
+[1.822058] (dynamixel_sdk) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[1.822211] (dynamixel_sdk) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[1.822380] (dynamixel_sdk) StderrLine: {'line': b'\n'}
+[1.822556] (dynamixel_sdk) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[1.822713] (dynamixel_sdk) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[1.822868] (dynamixel_sdk) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[1.823032] (dynamixel_sdk) StderrLine: {'line': b'  has been installed.\n'}
+[1.823179] (dynamixel_sdk) StderrLine: {'line': b'\n'}
+[1.823316] (dynamixel_sdk) StderrLine: {'line': b'\n'}
+[1.823460] (dynamixel_sdk) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.823649] (dynamixel_sdk) StdoutLine: {'line': b'See also "/home/hadi/robotis_ws/build/dynamixel_sdk/CMakeFiles/CMakeOutput.log".\n'}
+[1.825760] (dynamixel_sdk) JobEnded: {'identifier': 'dynamixel_sdk', 'rc': 'SIGINT'}
+[1.826547] (open_manipulator_x_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.827750] (open_manipulator_msgs) StderrLine: {'line': b'CMake Error at CMakeLists.txt:18 (find_package):\n'}
+[1.828040] (open_manipulator_msgs) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[1.828318] (open_manipulator_msgs) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[1.828476] (open_manipulator_msgs) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[1.828625] (open_manipulator_msgs) StderrLine: {'line': b'\n'}
+[1.828771] (open_manipulator_msgs) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[1.828933] (open_manipulator_msgs) StderrLine: {'line': b'  any of the following names:\n'}
+[1.829079] (open_manipulator_msgs) StderrLine: {'line': b'\n'}
+[1.829222] (open_manipulator_msgs) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[1.829365] (open_manipulator_msgs) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[1.829513] (open_manipulator_msgs) StderrLine: {'line': b'\n'}
+[1.829655] (open_manipulator_msgs) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[1.829797] (open_manipulator_msgs) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[1.829939] (open_manipulator_msgs) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[1.830086] (open_manipulator_msgs) StderrLine: {'line': b'  has been installed.\n'}
+[1.830228] (open_manipulator_msgs) StderrLine: {'line': b'\n'}
+[1.830469] (open_manipulator_msgs) StderrLine: {'line': b'\n'}
+[1.830735] (open_manipulator_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.831018] (open_manipulator_msgs) StdoutLine: {'line': b'See also "/home/hadi/robotis_ws/build/open_manipulator_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[1.831726] (open_manipulator_msgs) JobEnded: {'identifier': 'open_manipulator_msgs', 'rc': 'SIGINT'}
+[1.835907] (open_manipulator_x_description) StderrLine: {'line': b'CMake Error at CMakeLists.txt:18 (find_package):\n'}
+[1.836099] (open_manipulator_x_description) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[1.836235] (open_manipulator_x_description) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[1.836339] (open_manipulator_x_description) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[1.836556] (open_manipulator_x_description) StderrLine: {'line': b'\n'}
+[1.836698] (open_manipulator_x_description) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[1.836798] (open_manipulator_x_description) StderrLine: {'line': b'  any of the following names:\n'}
+[1.836888] (open_manipulator_x_description) StderrLine: {'line': b'\n'}
+[1.837002] (open_manipulator_x_description) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[1.837091] (open_manipulator_x_description) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[1.837187] (open_manipulator_x_description) StderrLine: {'line': b'\n'}
+[1.837292] (open_manipulator_x_description) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[1.837380] (open_manipulator_x_description) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[1.837467] (open_manipulator_x_description) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[1.837554] (open_manipulator_x_description) StderrLine: {'line': b'  has been installed.\n'}
+[1.837652] (open_manipulator_x_description) StderrLine: {'line': b'\n'}
+[1.837739] (open_manipulator_x_description) StderrLine: {'line': b'\n'}
+[1.837841] (open_manipulator_x_description) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.837964] (open_manipulator_x_description) StdoutLine: {'line': b'See also "/home/hadi/robotis_ws/build/open_manipulator_x_description/CMakeFiles/CMakeOutput.log".\n'}
+[1.840362] (open_manipulator_x_description) JobEnded: {'identifier': 'open_manipulator_x_description', 'rc': 'SIGINT'}
+[1.855172] (dynamixel_workbench_toolbox) JobSkipped: {'identifier': 'dynamixel_workbench_toolbox'}
+[1.855632] (open_manipulator_x_teleop) JobSkipped: {'identifier': 'open_manipulator_x_teleop'}
+[1.855757] (robotis_manipulator) JobSkipped: {'identifier': 'robotis_manipulator'}
+[1.855849] (dynamixel_workbench) JobSkipped: {'identifier': 'dynamixel_workbench'}
+[1.855933] (open_manipulator_x_libs) JobSkipped: {'identifier': 'open_manipulator_x_libs'}
+[1.856014] (open_manipulator_x_controller) JobSkipped: {'identifier': 'open_manipulator_x_controller'}
+[1.856095] (open_manipulator_x) JobSkipped: {'identifier': 'open_manipulator_x'}
+[1.856236] (-) EventReactorShutdown: {}

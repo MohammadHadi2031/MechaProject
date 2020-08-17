@@ -1,0 +1,1 @@
+Invoking command in '/home/hadi/robotis_ws/build/open_manipulator_x_description': /usr/bin/cmake /home/hadi/robotis_ws/src/open_manipulator/open_manipulator_x_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hadi/robotis_ws/install/open_manipulator_x_description

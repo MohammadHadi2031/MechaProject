@@ -1,0 +1,2 @@
+Invoking command in '/home/hadi/robotis_ws/build/cmake_modules': /usr/bin/cmake /home/hadi/robotis_ws/src/open_manipulator_dependencies/cmake_modules -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hadi/robotis_ws/install/cmake_modules
+Invoked command in '/home/hadi/robotis_ws/build/cmake_modules' returned '1': /usr/bin/cmake /home/hadi/robotis_ws/src/open_manipulator_dependencies/cmake_modules -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hadi/robotis_ws/install/cmake_modules
